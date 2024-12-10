@@ -1,8 +1,10 @@
+
 import sys
 import json
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QLineEdit, QTextEdit, QPushButton, QDateEdit, QMessageBox, QListWidgetItem
 from PyQt5.QtCore import QDate
+
 
 # Диалог для добавления и редактирования заметок
 class NoteDialog(QDialog):
